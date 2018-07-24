@@ -2,12 +2,12 @@
 	"name": "utils-date",
 	"version": "1.2.0",
 	"description": "Utils-date is a js toolkit for manipulating Date objects",
-	"main": "./src/utils-date.js",
+	"main": "./dist/utils-date.min.js",
 	"directories": {
 		"lib": "./src/lib"
 	},
 	"scripts": {
-		"test": "node ./test/test.js",
+		"test": "vows -i --spec",
 		"dev": "rollup -w -c ./rollup.config.js --environment TARGET:dev",
 		"build": "rollup -w -c ./rollup.config.js --environment TARGET:prod"
 	},
