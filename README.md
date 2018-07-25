@@ -1,6 +1,6 @@
 # Utils Date ![git start](https://img.shields.io/github/stars/silencehvk/utils-date.svg?style=social&label=Star) ![git fork](https://img.shields.io/github/forks/silencehvk/utils-date.svg?style=social&label=Fork) [![](https://img.shields.io/github/issues/silencehvk/utils-date.svg?style=social&label=Issues)](https://github.com/silencehvk/utils-date/issues)
 
-![releases version](https://img.shields.io/badge/version-1.2.0-brightgreen.svg)
+![releases version](https://img.shields.io/badge/version-1.2.5-brightgreen.svg)
 ![node version](https://img.shields.io/badge/node-%3E%3D7.5.0-brightgreen.svg)
 ![npm version](https://img.shields.io/badge/npm-%3E%3D4.1.2-brightgreen.svg)
 ![yarn version](https://img.shields.io/badge/yarn-1.7.0-blue.svg)
@@ -138,7 +138,7 @@ Used in Web
 
 	new Date().addSecond(1); // Mon Jul 23 2018 22:02:33 GMT+0800 (中国标准时间)
 
-	new Date().addMilisecond(-1); // Mon Jul 23 2018 22:01:33 GMT+0800 (中国标准时间) 
+	new Date().addMilisecond(-1); // Mon Jul 23 2018 22:01:33 GMT+0800 (中国标准时间)
 
 	// Used utils-date
 	utilsDate.add(1528278558218,1,"year"); // Tue Jul 23 2019 22:03:24 GMT+0800 (中国标准时间)
