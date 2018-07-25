@@ -1,5 +1,5 @@
 /*!
- * utils-date v1.2.1
+ * utils-date v1.2.5
  * (c) 2018-2018 Slience HVK
  */
 (function (global, factory) {
@@ -183,7 +183,7 @@
 			// Clear the space before and after the string
 			datetime = datetime.replace(/^(\s|\u00A0)+/, '').replace(/(\s|\u00A0)+$/, '');
 			// Format the date format
-			datetime = datetime.replace("/Date(", "").replace(")/", "").replace(/-/g, "/").replace(' ', ':').split("+")[0];
+			datetime = datetime.replace("/Date(", "").replace(")/", "").replace(' ', ':');
 			datetime = !isNaN(datetime) ? parseInt(datetime) : datetime;
 			return new Date(datetime);
 		} catch (err) {
